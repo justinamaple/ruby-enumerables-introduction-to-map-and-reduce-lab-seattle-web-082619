@@ -15,6 +15,6 @@ def map_to_square(source_array)
   source_array.map { |num| num**2 }  
 end
 
-def reduce_to_total(source_array, start = 0)
+def reduce_to_total(source_array)
   source_array.reduce(start) { |sum, n| sum + n }
 end
